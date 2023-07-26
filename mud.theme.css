@@ -1,5 +1,5 @@
 /**
- * @name mud
+ * @name realmud
  * @author DevilBro
  * @version 1.0.5
  * @description Allows you to use a background image without greatly altering the basic look of Discord.
@@ -12,7 +12,9 @@
  * @BDEditor BasicBackground
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;500;700&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
@@ -33,7 +35,7 @@
   --guildchanneltransparency: 0.15;
   --chatinputtransparency: 0;
   --memberlisttransparency: 0;
-  --font: Whitney;
+  --font: Ubuntu;
   --textbrightest: 255,255,255;
   --textbrighter: 222,222,222;
   --textbright: 200,200,200;
